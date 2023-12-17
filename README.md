@@ -84,7 +84,7 @@ Use command ``user`` to check and edit the user name, target directory and passw
 |``course`` |Print or change marked courses |
 
 
-## Automatic daliy synchronize
+## Automatic daily synchronization
 
 If you have a raspberry pi or any Unix computer, you can do the following instructions to synchronize the ilias folder with your cloud storage.
 
@@ -99,3 +99,9 @@ If you have a raspberry pi or any Unix computer, you can do the following instru
 
 With the seetings, your raspberry pi will synchronize the ilias folder, download new files at 5:00 am. and upload them in your cloud storage at 5:30 am.
 
+## Automatic daily synchronization in IliaD-Ilias7
+
+In IliaD-Ilias7, there is a script named ‘run_iliaD.sh’. You can edit your crontab to set up automatic daily synchronization.
+
+1. Open crontab: with ``crontab -e`` in terminal
+2. Add following instructions: ``00 05 * * * path/to/run_iliaD.sh``. This command schedules the synchronization of materials every day at 5 a.m.
