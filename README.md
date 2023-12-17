@@ -23,7 +23,7 @@ $ pip install iliaDownloader
 $ iliaD
 ```
 
-This is the legacy version. While it can be installed directly from pip, it does not work with Ilias 7:
+To use this program with Ilias 7, you should clone this repository, then install it using pip in editable mode, and finally initialize the configuration using iliaD init:
 
 ```
 $ git clone https://github.com/Virlight/IliaD-Ilias7.git
