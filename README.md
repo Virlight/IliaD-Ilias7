@@ -26,10 +26,10 @@ $ iliaD
 This is the legacy version. While it can be installed directly from pip, it does not work with Ilias 7:
 
 ```
+$ git clone https://github.com/Virlight/IliaD-Ilias7.git
 $ cd IliaD-Ilias7
 $ pip install -e .
-
-$ iliaD
+$ iliaD init
 ```
 
 </br>
