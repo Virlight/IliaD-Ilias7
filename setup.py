@@ -14,11 +14,11 @@ from setuptools import find_packages, setup, Command
 # Package meta-data.
 NAME = 'iliaDownloader'
 DESCRIPTION = 'A simple ilias downloader.'
-URL = 'https://github.com/cold-soda-jay/iliaD'
-EMAIL = 'linukaszkr@gmail.com'
-AUTHOR = 'Joe'
+URL = 'https://github.com/cold-soda-jay/iliaD, https://github.com/Virlight/IliaD-Ilias7'
+EMAIL = 'linukaszkr@gmail.com, rotsehnsucht@gmail.com'
+AUTHOR = 'Joe, Haoliang'
 REQUIRES_PYTHON = '>=3.6.0'
-VERSION = '1.1.6'
+VERSION = '1.2.0'
 
 # What packages are required for this module to be executed?
 REQUIRED = [
