@@ -101,7 +101,7 @@ With the seetings, your raspberry pi will synchronize the ilias folder, download
 
 ## Automatic daily synchronization in IliaD-Ilias7
 
-In IliaD-Ilias7, there is a script named ‘run_iliaD.sh’. You can edit your crontab to set up automatic daily synchronization.
+In IliaD-Ilias7, there is a script named ``run_iliaD.sh``. You can edit your crontab to set up automatic daily synchronization.
 
 1. Open crontab: with ``crontab -e`` in terminal
 2. Add following instructions: ``00 05 * * * path/to/run_iliaD.sh``. This command schedules the synchronization of materials every day at 5 a.m.
