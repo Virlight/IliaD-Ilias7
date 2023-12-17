@@ -1,3 +1,0 @@
-[console_scripts]
-iliaD = iliaD.iliaD:main
-
