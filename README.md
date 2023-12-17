@@ -8,6 +8,11 @@ A simple and easy ilias downloader written with python. It helps you to download
 > **Important:** The project is now only support Ilias platform of ***Karlsruhe Institut für Technologie***.
 
 
+# IliaD-Ilias7
+
+Due to the upgrade to Ilias 7, the original functions in IliaD no longer work. Therefore, I have modified the label recognition part of IliaD and developed a new version, named IliaD-Ilias7, to scrape Ilias effectively.
+
+
 ## Install 
 
 ```
