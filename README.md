@@ -15,12 +15,22 @@ Due to the upgrade to Ilias 7, the original functions in IliaD no longer work. T
 
 ## Install 
 
+This is the legacy version. While it can be installed directly from pip, it does not work with Ilias 7:
+
 ```
 $ pip install iliaDownloader
 
 $ iliaD
 ```
 
+This is the legacy version. While it can be installed directly from pip, it does not work with Ilias 7:
+
+```
+$ cd IliaD-Ilias7
+$ pip install -e .
+
+$ iliaD
+```
 
 </br>
 
