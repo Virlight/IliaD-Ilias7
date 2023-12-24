@@ -1,6 +1,7 @@
 # ILIAD
 
 A simple and easy ilias downloader written with python. It helps you to download files on ilias to your computer.
+The original Repository can be found at [iliaD](https://github.com/cold-soda-jay/iliaD) 
 
 
 ![Title](https://github.com/cold-soda-jay/iliaD/blob/master/pic/title.png?raw=true)
